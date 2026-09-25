@@ -30,7 +30,7 @@ export default defineConfig({
     baseURL: process.env.BASE_URL,
     headless: true, // Set to true for headless mode
     launchOptions: {
-      slowMo: 1000,
+      slowMo: 500,
     },
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
